@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-BgPrimaryColor: #c5c0e92e;
+        --color-BgSecondaryColor: white;
+        --color-BgTertiaryColor: white;
+
+        --color-BorderColor: #d2d2ff;
+
+        --color-TextPrimaryColor: #522e83;
+        --color-TextSecondaryColor: black;
+    }
+    :root[class="dark"] {
+        --color-BgPrimaryColor: #151515;
+        --color-BgSecondaryColor: #1d1d1d;
+        --color-BgTertiaryColor: #242424;
+
+        --color-BorderColor: #151515;
+
+        --color-TextPrimaryColor: #b9b9b9;
+        --color-TextSecondaryColor: #b9b9b9;
+    }
+}
